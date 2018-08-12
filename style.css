@@ -4,6 +4,24 @@
 body {
     font-family: Montserrat; 
 }
+.bg-purple {
+    background-color: #D500F9;
+}
+.bg-lightred {
+    background-color: #FF1744;
+}
+.bg-green {
+    background-color: #00E676;
+}
+.text-purple {
+    color: #D500F9;
+}
+.text-lightred {
+    color: #FF1744;
+}
+.text-green {
+    color: #00E676;
+}
 
 /* -- Navbar -- */
 .top-navbar ul li a {
@@ -208,6 +226,36 @@ body {
   .works .overlay:hover {
     background: rgba(255, 110, 102, 0.231) !important;
   }
+
+  /* Design Package*/
+  #packages {
+    position: relative;
+    height: 250px;
+    background: url("../img/recomockup.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 2px rgb(250, 26, 71) solid;
+}
+#packages h2 {
+    padding-top: 65px;
+    color: rgb(250, 26, 71);
+}
+.package-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.ebook-landing i {
+    color: #D500F9;
+}
+.eCommerce i {
+    color: #FF1744;
+}
 
   /* CTA */
   #cta a {

@@ -256,6 +256,9 @@ body {
 .eCommerce i {
     color: #FF1744;
 }
+.corporate i {
+    color: #00E676;
+}
 
   /* CTA */
   #cta a {

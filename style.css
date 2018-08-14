@@ -133,33 +133,29 @@ body {
     .intro h1 {
         font-weight: 300 !important;
     }
-    #home-section .subscribe {
-        padding-top: 1em !important;
-        padding-bottom: 1em !important;
-    }
-    .subscribe input, .subscribe button {
-        margin-top: 1em;
-    }
-    .subscribe .row {
-       padding-top: 0;
-    }
-    .subscribe h3 {
-        font-size: 18px;
-        font-weight: 300;
-        padding-bottom: 0 !important;
-    }
 }
 
 @media (max-width: 505px) {
-    #home-section {
-        min-height:50px !important;
+     #home-section a {
+        display: none;
     }
     #home-section .intro {
-        margin-top: 50px !important; 
+        margin-top: 70px !important; 
     }
     .intro h1 {
         font-weight: 300 !important;
         font-size: 34px;
+    }
+
+    #about p {
+        display: none;
+    }
+    #about a {
+        display: block;
+    }
+
+    #about img {
+        width: 50%!important;
     }
 }
 

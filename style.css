@@ -266,7 +266,7 @@ body {
 #testimonials {
     position: relative;
     min-height: 400px;
-    background: url("../img/testi-background.jpg");
+    background: url("testi-background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

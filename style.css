@@ -261,6 +261,62 @@ body {
     border-radius: 20px; 
     background-color:rgb(250, 26, 71);
   }
+
+/* Testimonial*/
+#testimonials {
+    position: relative;
+    min-height: 400px;
+    background: url("../img/testi-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+#testimonials p {
+    font-size: 14px;
+}
+#testimonials img {
+    width: 20%;
+    margin-top: -70px; }
+
+.testi-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+@media (max-width: 1085px) {
+    #testimonials {
+        min-height: 550px;
+    }
+}
+@media (max-width: 768px) {
+    #testimonials {
+        min-height: 750px;
+    }
+    #testimonials img {
+        width: 80px!important;
+    }
+    #testimonials .card-body {
+        margin-top: 50px!important; 
+    }
+    #testimonials .container-fluid {
+        padding-top: 0!important;
+    }
+}
+@media (max-width: 553px) {
+    #testimonials {
+        height: 900px;
+    }
+}
+@media (max-width: 455px) {
+    #testimonials {
+        height: 1000px;
+    }
+}
   
   /* Contact */
   #contact i {
@@ -297,3 +353,18 @@ body {
 
 #main-footer a i:hover {
   color: rgb(250, 26, 71); }
+
+/* DropShip Popup */
+#dropship {
+    display: none;
+    width: 35%;
+    position: fixed;
+    top: 20%;
+    right: -5%;
+    transform: translate(-20%, -5%);
+    z-index: 2;
+}
+
+#closeAds {
+    cursor: pointer;
+}
